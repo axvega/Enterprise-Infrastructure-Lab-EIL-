@@ -1,0 +1,40 @@
+# ==========================
+# Enterprise Infrastructure Lab
+# ==========================
+
+# Environment variables
+.env
+.env.*
+*.env
+
+# Persistent data
+data/
+
+# Backups
+backups/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+
+# Docker overrides
+docker-compose.override.yml
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Bash
+*.swp
